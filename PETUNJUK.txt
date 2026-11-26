@@ -1,0 +1,21 @@
+PAKET PEMBARUAN HALAMAN DETAIL LAYANAN CREATIVEMU
+
+Isi:
+resources/views/service.blade.php
+
+Cara memasang:
+1. Buat backup file lama:
+   resources/views/service.blade.php
+2. Salin file dari ZIP ini ke:
+   C:\laragon\www\CREATIVEMUNEW\resources\views\service.blade.php
+3. Jalankan:
+   php artisan view:clear
+4. Buka halaman detail layanan yang slug-nya mengandung "iklan-marketplace".
+
+Catatan:
+- Tidak mengubah routes, controller, model, migration, database, atau akun admin.
+- Halaman detail memakai field service yang sudah ada: title, slug, category, excerpt, description.
+- Untuk slug iklan marketplace, paket Basic/Pro/Premium mengikuti detail yang tersedia pada halaman resmi Creativemu.
+- Harga tidak dibuat-buat. Halaman resmi acuan tidak mencantumkan nominal paket iklan marketplace.
+- Untuk layanan lain, template menampilkan paket kerangka konsultatif sampai rincian spesifik masing-masing layanan dimasukkan.
+- Pastikan record layanan iklan marketplace aktif dan slug-nya memuat "iklan-marketplace".

@@ -1,0 +1,1 @@
+Simpan gambar milikmu di folder ini. URL gambar bisa dimasukkan melalui form admin.
